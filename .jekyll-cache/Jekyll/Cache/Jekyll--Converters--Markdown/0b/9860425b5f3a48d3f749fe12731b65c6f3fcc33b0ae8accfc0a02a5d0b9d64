@@ -1,0 +1,17 @@
+I"�<p>Unity is a beautiful tool to make video games. As part of my interest in reinforcement learning, some spare time I had this year appears to be the perfect opportunity for me to dive into it and get my hands dirty.</p>
+
+<p>I wanted to make something easy, with the most basic tools available for free in Unity. As I’ve been working remotly for almost a year and a half now (basically since I joined Montréal), I got inspired by one of my former workplace (even if it is not entirely accurate on lots of details and dimensions).</p>
+
+<p>It is supposed to be a game, similar to “Where’s Waldo” (“Où est Charlie?” in french). A character is randomly placed on the map, and you’ll need to find him (and literally stand next to him). Everytime you succeed, he is placed somewhere else, and so on.</p>
+
+<p>The graphic of the game looks a little bit chidldish, but I did what I could from the basic toolkit available made of cubes, spheres and cylinders. I can’t say I’d play this game for hours though …</p>
+
+<p>Here’s what it looks like :</p>
+
+<iframe width="520" height="315" src="https://www.youtube.com/embed/gXcjsOUpR7A" frameborder="0" allowfullscreen=""></iframe>
+
+<hr />
+
+<p><br />
+<br /></p>
+:ET
