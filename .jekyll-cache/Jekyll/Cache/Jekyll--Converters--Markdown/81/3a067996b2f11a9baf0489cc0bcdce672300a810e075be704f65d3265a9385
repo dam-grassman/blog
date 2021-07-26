@@ -1,0 +1,21 @@
+I"9<p>Coding from scratch a Pacman game was probably one of the funniest project I did in engineering school. The main reason : it did not look like work at all. I always wanted to build a video game on my own, or at least look into the technology behind. The only requirement we had was to use Python, and we’d get a bonus point if we’d use <a href="https://kivy.org/#home">Kivy</a>, an open-source Python library for app development.</p>
+
+<p><img src="/blog/images/01_pacman.png" alt="PacMan" width="100%" /></p>
+
+<p>I can’t say I did not struggle installing Kivy at the time, but it was definitely worth a shot. The ultimate goal of this project was to :</p>
+<ol>
+  <li>Build a graphical interface with the best render as possible, or at least one that would make you want to play the game (using Kivy).</li>
+  <li>Link the graphical interface with Python as backend.</li>
+  <li>Implement AI algorithms to control non-player characters, such as the gosts in Pacman.</li>
+  <li>[Not completed] Implement RL algorithms to learn the ghosts' behavior.</li>
+</ol>
+
+<p>To customized it in our own way, we revisited the original Pacman game, by mixing it with characters taken from Pokemon. Pacman was swaped for Ash (Sacha in French), ghosts for the Haunter’s family (Spectrum in French). We added as well two new features :</p>
+<ol>
+    <li> One Pokeball is hidden on the maze. Ash can pick it up in order to catch one of the ghosts. </li>
+    <li> As time goes by, the ghosts evolve to increase their speed. Hence, Gastly evolves into Haunter (to reach the same speed as Ash), then into Gengar (resp Fantominus, Spectrum and Ectoplasma in French).</li>
+</ol>
+
+<p>Here is the video of the final render of the game :</p>
+<iframe width="520" height="315" src="https://www.youtube.com/embed/MvtBe4EF-x0" frameborder="0" allowfullscreen=""></iframe>
+:ET

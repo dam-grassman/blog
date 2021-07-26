@@ -1,0 +1,52 @@
+I"P<h1 id="do-calculus-and-pearls-framework">Do-Calculus and Pearl’s Framework</h1>
+
+<hr />
+
+<blockquote>
+    <p>“Statistics focused exclusively on how to summarize data, not on how to interpret it [...]. Data can tell you that people who took a medicine recovered faster than those who did not, but they can’t tell you why.“
+    </p>
+</blockquote>
+<hr />
+
+<p style="text-align:right;">-- <strong>Judea Pearl</strong> in ”The Book Of Why”</p>
+
+<p>Judea Pearl introduced the concept of <i>Ladder of Causation</i>, as a conceptual and abstract way to sort the different levels at which us, as human, reason. It captures the differents and gradual notions of causality, and accounts for the next challenges machine learning will have to face :</p>
+<ol>
+  <li> <i>Association</i> - the first level consists in <i>seeing</i>, or <i>observing</i>, which cover most of the robot and animal's  learning. It enables to answer questions like "What if I see ..?", "How are the variables related" or "How would seeing X change my belief in Y"? It corresponds to the estimation of <math>p(Y|X)</math> </li>
+  <li> <i>Intervention</i> - the next level enables you to act within your environment and witness the results of your own actions. It allows you to answer question like "What if I do ..?", "How can I make .. happen?" or "What would Y become if I do X"?. It is really crucial to grasp the difference between the first and second level because here is introduced the notion of causality between what I see and what I do. We aim at estimating <math>p(Y|do(X))</math>. </li>
+  <li> <i>Counterfactual</i> - the last, but no least, level of the ladder introduces imagination. What makes human reasoning so singular is its ability to reason counterfactually, that is to say, answer to question like "What if i acted differenty?" or "Why did it happen?". This retrospection enables humans to get a much better understanding of their environment and increases significantly their capacity to learn, and to learn quickly.</li>
+</ol>
+
+<hr />
+
+<h3 id="the-ladder-of-causation--vith-an-exemple">The ladder of Causation  vith an Exemple</h3>
+
+<hr />
+
+<p style="text-align:left;">
+    Level 1 - Association 
+    <span style="float:right;">
+        <i>What does</i> a symptom <i>tell me</i> about a disease ?
+    </span>
+</p>
+<p style="text-align:left;">
+    Level 2 - Intervention 
+    <span style="float:right;">
+        <i>What if I take</i> an aspirin, will my headache be cured ?
+    </span>
+</p>
+<p style="text-align:left;">
+    Level 1 - Counterfactual 
+    <span style="float:right;">
+        <i>Was it</i> my aspirin that stopped my headache?
+        <br />
+        <i>What woud have happen if</i> I took something else ?
+    </span>
+</p>
+<hr />
+
+<h2 id="do-calculus">Do-Calculus</h2>
+<p>So as to fill the gap between first two levels, Pearls introduced the framework of <i>do-calculus</i>. It plays the major role of relating both observational distributions p(Y|X) and interventional distributions p(Y|do(X)). Basically, we are interested in measuring changes in distribution of some random variables {X, Y, Z, ..} when one performs an intervention <i>do(x)</i>, which forces the random variable X to take the value x, regardless of its causes (or causal ancestors). To do so, it introduces a set of rules which allows for measuring interventional queries, when certain conditions are met :
+<br />
+<br /></p>
+:ET

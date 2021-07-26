@@ -8,11 +8,11 @@ tags:   Video Games
 
 Unity is a beautiful tool to make video games. As part of my interest in reinforcement learning, some spare time I had this year appears to be the perfect opportunity for me to dive into it and get my hands dirty. 
 
-I wanted to make something easy, with the most basic tools available for free in Unity. As I've been working remotly for almost a year and a half now (basically since I joined Montréal), I got inspired by one of my former workplace (even if it is not entirely accurate on lots of details and dimensions).
+I wanted to make something easy, with the most basic tools and packages available for free in Unity. As I've been working remotly for almost a year and a half now (basically since I joined Montréal), I got inspired by my former workplace (even if lots of details and dimensions are definitely not accurate).
 
-It is supposed to be a game, similar to "Where's Waldo" ("Où est Charlie?" in french). A character is randomly placed on the map, and you'll need to find him (and literally stand next to him). Everytime you succeed, he is placed somewhere else, and so on.
+The project was to design a game, similar to "Where's Waldo" ("Où est Charlie?" in french). A character is randomly placed on the map, and one needs to find him (and literally run into it). Everytime you succeed, Waldo is placed somewhere else, and so on.
 
-The graphic of the game looks a little bit chidldish, but I did what I could from the basic toolkit available made of cubes, spheres and cylinders. I can't say I'd play this game for hours though ...
+The graphic of the game looks a little bit chidldish, but I did what I could using the basic toolkit available (made of cubes, spheres and cylinders). I can't say I'd play this game for hours though ...
 
 Here's what it looks like :
 

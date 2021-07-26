@@ -1,0 +1,25 @@
+I"+<h1 id="do-calculus">Do-Calculus</h1>
+
+<hr />
+
+<blockquote>
+    <p>“Statistics focused exclusively on how to summarize data, not on how to interpret it [...]. Data can tell you that people who took a medicine recovered faster than those who did not, but they can’t tell you why.“
+    </p>
+</blockquote>
+<hr />
+
+<p style="text-align:right;">-- <strong>Judea Pearl</strong> in ”The Book Of Why”</p>
+
+<p>Judea Pearl introduced the concept of <i>Ladder of Causation</i>, as a conceptual and abstract way to sort the different level at which us, as human, reason, in order to introduce notions of causality :</p>
+<ol>
+  <li> <i>Association</i> - the first level consists in <i>seeing</i>, or <i>observing</i> which cover most of the robot's and animal basic learning. It enables to answer questions like "What if I see ?", "How are the variables related" or "How would seeing X change my belief in Y"? It basically correspond to the estimation of $p(Y|X)$ </li>
+  <li> <i>Intervention</i></li>
+  <li> <i>Counterfactual</i></li>
+ssssss
+
+*** 
+
+<br />
+<br />
+</ol>
+:ET
