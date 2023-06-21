@@ -12,29 +12,6 @@ Hi, my name is Damien GRASSET. I'm a french and freshly-graduated engineer worki
 
 ***
 
-#### Paris...
-<small> - 2018</small>
-
-<p style='text-align: justify;'>
-Born and raised. I've always thought I was going to spend my entire life there but travelling abroad quite change my mind on this. Paris remains the most beautiful city i've visited so far (in all objectivity), but it is certainly not the place where one can have the healthiest lifestyle. I still think I will end up settling here one day though.
-</p>
-
-#### London...
-<small>2018</small>
-
-<p style='text-align: justify;'>
-I lived in London for 6 months, working as a machine learning engineer at Therapy Box. I fell in love with this city for a bunch of different reasons that I'm won't list here, it would be too long. One thing I recommend though it to experience living in a country where the language is different from your mother tongue. It is something you can really learn and grow from.
-</p>
-
-#### Montreal...
-<small>2020 - </small>
-
-<p style='text-align: justify;'>
-I arrived in Montreal two weeks before the pandemic hit Canada. Unsurprisingly, my experience in Canada was not what I had imagined when I applied for a work visa two years ago. However, I consider myself quite lucky : first of all to have been able to travel and settle there just before the borders closed, and secondly Montreal turned out to be a really pleasant city to spend this difficult time. I'm still waiting for my social life to start for good though ..
-</p>
-
-***
-
 <div style="text-align: right">
     <h1> Curriculum Vitae </h1>
 </div>
@@ -81,7 +58,7 @@ I arrived in Montreal two weeks before the pandemic hit Canada. Unsurprisingly, 
         <div class="hero__image">
            <p>  <strong> Machine Learning Intern at Therapy Box, London</strong> <br>
                 <i>ML with HealthCare and Audio Data</i><br>
-                Six-month internship in a specialist app development company that creates apps for communication, education andhealthcare. Worked on a NHS Project – Detection of developmental language disorder among kids between 5 and8 based on audio recordings and grammar features - and on a phoneme-based Speech Recognition engine aimed athelping kids with articulation difficulties.</p>
+                Six-month internship in a specialist app development company that creates apps for communication, education andhealthcare. Worked on a NHS Project – Detection of developmental language disorder among kids between 5 and 8 based on audio recordings and grammar features - and on a phoneme-based Speech Recognition engine aimed athelping kids with articulation difficulties.</p>
         </div>
       </div>
       <div class="col col-3" >
@@ -91,7 +68,7 @@ I arrived in Montreal two weeks before the pandemic hit Canada. Unsurprisingly, 
         <div class="hero__image">
            <p>  <strong> Data Scientist Intern at La Caisse des Dépôts et Consignations, Paris</strong> <br>
                 <i>NLP in an Asset Management Team</i><br>
-                Six-month internship as a Data Scientist within the asset management team doing text analytics with Python, im-plementation of Machine Leaning algorithms applied to NLP as well as the development of security selection toolsby an unstructured-data approach with an automatic classification system.</p>
+                Six-month internship as a Data Scientist within the asset management team doing text analytics with Python, implementation of Machine Leaning algorithms applied to NLP as well as the development of security selection toolsby an unstructured data approach with an automatic classification system.</p>
         </div>
       </div>
       <div class="col col-3" >
@@ -101,12 +78,14 @@ I arrived in Montreal two weeks before the pandemic hit Canada. Unsurprisingly, 
         <div class="hero__image">
            <p>  <strong> Junior Data Scientist intern at Shortouch,Pari</strong> <br>
                 <i>Social Network and Scoring</i><br>
-                Young innovative French startup in the Big Data and Digital Industry. Worked hand in hand with the CTO on dataextraction and analysis, developed new scoring methods and handled the computer language R and database Neo4J.</p>
+                Young innovative French startup in the Big Data and Digital Industry. Worked hand in hand with the CTO on data extraction and analysis, developed new scoring methods and handled the computer language R and database Neo4J.</p>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+***
 
 ## Education
 
@@ -146,3 +125,32 @@ I arrived in Montreal two weeks before the pandemic hit Canada. Unsurprisingly, 
     </div>
   </div>
 </div>
+
+***
+
+<div style="text-align: right">
+    <h1> Important Cities </h1>
+</div>
+
+#### Paris - 
+<small> - 2018</small>
+
+<p style='text-align: justify;'>
+Born and raised. I've always thought I was going to spend my entire life there but travelling abroad quite change my mind on this. Paris remains the most beautiful city i've visited so far (in all objectivity), but it is certainly not the place where one can have the healthiest lifestyle. I still think I will end up settling here one day though.
+</p>
+
+#### London -
+<small>2018</small>
+
+<p style='text-align: justify;'>
+I lived in London for 6 months, working as a machine learning engineer at Therapy Box. I fell in love with this city for a bunch of different reasons that I'm won't list here, it would be too long. One thing I recommend though it to experience living in a country where the language is different from your mother tongue. It is something you can really learn and grow from.
+</p>
+
+#### Montreal -
+<small>2020 - 2023 </small>
+
+<p style='text-align: justify;'>
+I arrived in Montreal two weeks before the pandemic hit Canada. Unsurprisingly, my experience in Canada was not what I had imagined when I applied for a work visa two years ago. However, I consider myself quite lucky : first of all to have been able to travel and settle there just before the borders closed, and secondly Montreal turned out to be a really pleasant city to spend this difficult time. I'm still waiting for my social life to start for good though ..
+</p>
+
+***
