@@ -9,7 +9,7 @@ description: Personal homepage for scientific posts and profil
 author:
   name: Damien GRASSET
   image: 01.jpg
-  #say-hello: Hello, I’m <strong>Damien GRASSET</strong>
+  say-hello: Allô, #I’m <strong>Damien GRASSET</strong>
   bio: Graduated as a statician-economist engineer from ENSAE, I'm currently working as a research engineer at IRT Saint Exupery Canada, investigating <strong>explanability</strong> and <strong>causality</strong> in <strong>reinforcement learning</strong>.
   job-company: IRT Saint-Exupéry Canada
   job-adress: 6650 Rue Saint-Urbain (MILA), Montréal, QC H2S 3H1, Canada
@@ -35,11 +35,11 @@ github-profile: dam-grassman # Add instagram username
 
 #-------------------------------
 # Scholar Feed
-school-profile: citations?hl=fr&user=Ft5CXT4AAAAJ # Add instagram username
+school-profile: Ft5CXT4AAAAJ # Add instagram username
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+#google-analytics: # Add your identifier. For example UA-99631805-1.
 
 #-------------------------------
 # Email adress
