@@ -13,7 +13,7 @@ image: #08.jpg <div class="col col-2 col-t-12 last-item">
       </div>
       <div class="col col-10">
         <div class="hero__image">
-          <i>"Autonomous drone interception with Reinforcement Learning"</i>, Damien Grasset, David Bertoin (IRT Saint Exupéry), Adrien Gauffriau (Airbus Operations) and Jayant Sen Gupta (Airbus AI Reseach)<br><br>
+          <b><i>"Autonomous drone interception with Reinforcement Learning"</i></b>, <br>Damien Grasset, David Bertoin (IRT Saint Exupéry), Adrien Gauffriau (Airbus Operations) and Jayant Sen Gupta (Airbus AI Reseach)<br><br>
           The paper got accepted at the <b>ATT 2022</b> (12th International Workshop on Agents in Traffic and Transportation) held at <b>IJCAI-ECAI 2022</b>. <br>
           <a href="https://ceur-ws.org/Vol-3173/8.pdf">Link to Worshop paper</a><br><br>
         </div>
@@ -23,7 +23,7 @@ image: #08.jpg <div class="col col-2 col-t-12 last-item">
       </div>
       <div class="col col-10">
         <div class="hero__image">
-          <i>"Causal Reinforcement Learning using Observational and Interventional Data"</i>, Maxime Gasse (Polytechinique Montréal, now ServiceNow), Damien Grasset, Pierre-Yves Oudeyer (INRIA) and Guillaume Gaudron (Ubisoft).<br><br>
+          <b><i>"Causal RL using Observational and Interventional Data"</i></b>, <br>Maxime Gasse (Polytechinique Montréal, now ServiceNow), Damien Grasset, Pierre-Yves Oudeyer (INRIA) and Guillaume Gaudron (Ubisoft).<br><br>
           The paper got accepted at the <b>Offline RL Workshop</b> at <b>NeurIPS 2022</b>. <br>
           <a href="https://arxiv.org/abs/2106.14421">Link to ArXiv paper</a>
         </div>
