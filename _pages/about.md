@@ -53,10 +53,13 @@ I arrived in Montreal two weeks before the pandemic hit Canada. Unsurprisingly, 
       <div class="col col-9">
         <div class="hero__image">
            <p>  <strong> Data Scientist at IRT Saint-Exupery Canada, Montréal</strong> <br>
-                <i>(1) Explainable Reinforcement Learning and Causality</i><br>
+                <i>(1) Explainable Reinforcement Learning and Causality</i><br><br>
                 Part of the DEEL Project (Dependable, Certifiable  Explainable Artificial Intelligence for Critical Systems) to work on the questions of explainable reinforcement learning and causality.<br>
-                <b>Publications</b>: <i>Causal Reinforcement Learning using Observational and Interventional Data</i>, M. Gasse, et al.<br>
-                                     <i>Autonomous drone interception with Reinforcement Learning</i> A. Gauffriau, et al..<br>
+                <b>Publications</b>: 
+                <ul>
+                  <li><i>Causal Reinforcement Learning using Observational and Interventional Data</i>, M. Gasse, et al.</li>
+                  <li><i>Autonomous drone interception with Reinforcement Learning</i> A. Gauffriau, et al.</li>
+                </ul><br><br>
                 (2) Developed an Object Detection/ Threat Detection algorithm for aerial images as a 6-month third-party project.
            </p>
         </div>
@@ -67,7 +70,7 @@ I arrived in Montreal two weeks before the pandemic hit Canada. Unsurprisingly, 
       <div class="col col-9">
         <div class="hero__image">
            <p>  <strong> Research Intern atIRT Saint-Exupery,Toulouse</strong> <br>
-                <i>Human Intervention in Reinforcement Learning</i><br>
+                <i>Human Intervention in Reinforcement Learning</i><br><br>
                 Join the DEEL Project to study the question of human intervention and interaction in the reinforcement learningprocess. End-of-studies internship.</p>
         </div>
       </div>
@@ -77,7 +80,7 @@ I arrived in Montreal two weeks before the pandemic hit Canada. Unsurprisingly, 
       <div class="col col-9">
         <div class="hero__image">
            <p>  <strong> Machine Learning Intern at Therapy Box, London</strong> <br>
-                <i>ML with HealthCare and Audio Data</i><br>
+                <i>ML with HealthCare and Audio Data</i><br><br>
                 Six-month internship in a specialist app development company that creates apps for communication, education andhealthcare. Worked on a NHS Project – Detection of developmental language disorder among kids between 5 and8 based on audio recordings and grammar features - and on a phoneme-based Speech Recognition engine aimed athelping kids with articulation difficulties.</p>
         </div>
       </div>
@@ -87,7 +90,7 @@ I arrived in Montreal two weeks before the pandemic hit Canada. Unsurprisingly, 
       <div class="col col-9">
         <div class="hero__image">
            <p>  <strong> Data Scientist Intern at La Caisse des Dépôts et Consignations, Paris</strong> <br>
-                <i>NLP in an Asset Management Team</i><br>
+                <i>NLP in an Asset Management Team</i><br><br>
                 Six-month internship as a Data Scientist within the asset management team doing text analytics with Python, im-plementation of Machine Leaning algorithms applied to NLP as well as the development of security selection toolsby an unstructured-data approach with an automatic classification system.</p>
         </div>
       </div>
@@ -97,7 +100,7 @@ I arrived in Montreal two weeks before the pandemic hit Canada. Unsurprisingly, 
       <div class="col col-9">
         <div class="hero__image">
            <p>  <strong> Junior Data Scientist intern at Shortouch,Pari</strong> <br>
-                <i>Social Network and Scoring</i><br>
+                <i>Social Network and Scoring</i><br><br>
                 Young innovative French startup in the Big Data and Digital Industry. Worked hand in hand with the CTO on dataextraction and analysis, developed new scoring methods and handled the computer language R and database Neo4J.</p>
         </div>
       </div>
