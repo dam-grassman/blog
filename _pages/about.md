@@ -7,7 +7,7 @@ image-size: 70%
 ---
  
 <p style='text-align: justify;'>
-Hi, my name is Damien GRASSET. I'm a french and freshly-graduated engineer working in the field of AI and currently based in Montreal. I've always been interested in mathematics and computer sciences on the one (academic) hand, as well as in video games and robots on the other (informal) hand. Reinforcement Learning appeared to me a few years ago as a perfect field at the junction of what I like (and what I was good at, academically at least). I don't consider myself a geek, even though I spend a non negligeable part of my days in front of a screen (be it at work or at home), I'm also a huge fan of football (soccer for canadians, even if they're wrong) which I practiced and still practicing a lot. Last but not least, I'm also a music lover, playing guitar in my spare time.
+Hi, my name is Damien GRASSET. I'm a french and freshly-graduated engineer working in the field of AI and currently based in Montreal. I've always been interested in mathematics and computer sciences on the one (academic) hand, as well as in video games and robots on the other (informal) hand. Reinforcement Learning appeared to me a few years ago as a perfect field at the junction of what I like (and what I was good at, academically at least). I don't consider myself a geek, even though I spend a non negligeable part of my days in front of a screen (be it at work or at home), I'm also a huge fan of football (soccer for canadians, even if they're wrong) which I practiced and still practicing a lot. Last but not least, I'm also a music lover, playing guitar and piano in my spare time.
 </p>
 
 ***

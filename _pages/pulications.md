@@ -13,7 +13,8 @@ image: #08.jpg <div class="col col-2 col-t-12 last-item">
       </div>
       <div class="col col-10">
         <div class="hero__image">
-          <i>Causal Reinforcement Learning using Observational and Interventional Data</i>, Maxime Gasse, Damien Grasset, Pierre-Yves Oudeyer et Guillaume Gaudron
+          <i>Causal Reinforcement Learning using Observational and Interventional Data</i>, Maxime Gasse (Polytechinique Montréal, now ServiceNow), Damien Grasset, Pierre-Yves Oudeyer (INRIA) et Guillaume Gaudron (Ubisoft).
+          https://arxiv.org/abs/2106.14421
         </div>
       </div>
     </div>
