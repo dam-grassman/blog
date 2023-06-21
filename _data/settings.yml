@@ -35,7 +35,7 @@ github-profile: dam-grassman # Add instagram username
 
 #-------------------------------
 # Scholar Feed
-#school-profile: # Add instagram username
+school-profile: citations?hl=fr&user=Ft5CXT4AAAAJ # Add instagram username
 
 #-------------------------------
 # Google Analytics
@@ -43,6 +43,6 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 
 #-------------------------------
 # Email adress
-email-adress: damien.grasset@irt-saintexupery.com
+email-adress: damien-grasset@hotmail.fr
 
 #instafeed: True

@@ -27,7 +27,7 @@ Judea Pearl introduced the concept of <i>Ladder of Causation</i>, as a conceptua
 
 *** 
 
-### The ladder of Causation  vith an Exemple
+### The ladder of Causation with an Example
 
 ***
 
