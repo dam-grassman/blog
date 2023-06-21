@@ -48,13 +48,17 @@ I arrived in Montreal two weeks before the pandemic hit Canada. Unsurprisingly, 
   <div class="container">
     <div class="row">
       <div class="col col-3" >
-          <h4 class="date">Since<br>March 2020</h4>
+          <h4 class="date">March 2020<br>July 2023</h4>
       </div>
       <div class="col col-9">
         <div class="hero__image">
            <p>  <strong> Data Scientist at IRT Saint-Exupery Canada, Montréal</strong> <br>
-                <i>Explainable Reinforcement Learning and Causality</i><br>
-                Part of the DEEL Project (Dependable, Certifiable  Explainable Artificial Intelligence for Critical Systems) to work on the questions of explainable reinforcement learning and causality.</p>
+                <i>(1) Explainable Reinforcement Learning and Causality</i><br>
+                Part of the DEEL Project (Dependable, Certifiable  Explainable Artificial Intelligence for Critical Systems) to work on the questions of explainable reinforcement learning and causality.<br>
+                <b>Publications</b>: <i>Causal Reinforcement Learning using Observational and Interventional Data</i>, M. Gasse, et al.<br>
+                                     <i>Autonomous drone interception with Reinforcement Learning</i> A. Gauffriau, et al..<br>
+                (2) Developed an Object Detection/ Threat Detection algorithm for aerial images as a 6-month third-party project.
+           </p>
         </div>
       </div>
       <div class="col col-3" >
