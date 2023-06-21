@@ -9,6 +9,15 @@ tags:   Causality
 # Abstract
 
 <p style="text-align:justify">
+<style>
+    div.solid {
+        border-style: none solid none none;
+        margin: 10px;
+        padding: 10px;
+        right: 77%;
+        position: absolute;
+    }
+</style>
 Learning efficiently a causal model of the environment is a key challenge of model-based RL agents operating in POMDPs. We consider here a scenario where the learning agent has the ability to collect online experiences through direct interactions with the environment (interventional data), but has also access to a large collection of offline experiences, obtained by observing another agent interacting with the environment (observational data). <br><br>
 
 A key ingredient, that makes this situation non-trivial, is that we allow the observed agent to interact with the environment based on hidden information, which is not observed by the learning agent. We then ask the following questions: can the online and offline experiences be safely combined for learning a causal model? And can we expect the offline experiences to improve the agent's performances? To answer these questions, we import ideas from the well-established causal framework of do-calculus, and we express model-based reinforcement learning as a causal inference problem. Then, we propose a general yet simple methodology for leveraging offline data during learning.  <br><br>
