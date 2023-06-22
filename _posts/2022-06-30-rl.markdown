@@ -8,9 +8,7 @@ tags:   RL Security
 
 # Abstract
 
-<div class="vertical-line" style="height: 45px;">
-<p style="text-align:justify">
-
+<div style="color:blue">
 Driven by recent successes in artificial intelligence, new autonomous navigation
 systems are emerging in the urban space. The adoption of such systems raises questions
 about certification criteria and their vulnerability to external threats. This work focuses on the
@@ -24,7 +22,6 @@ equipped with an automated anti-collision system. Our contribution is threefold.
 illustrate the security vulnerabilities of these systems. Secondly, we demonstrate the effectiveness
 of Reinforcement Learning for automatic detection of security flaws. Thirdly, we provide
 the community with an original benchmark based on an industrial use case.<br><br>
-</p>
 </div>
 
 <i><a href="https://arxiv.org/abs/2106.14421">Link to Paper</a></i>
