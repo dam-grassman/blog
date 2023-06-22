@@ -6,9 +6,14 @@ image:  drones.png
 tags:   RL Security
 ---
 
-# Abstract
+<i><a href="https://arxiv.org/abs/2106.14421">Link to Paper</a></i>
 
-<div style="color:blue">
+***
+
+## Abstract
+
+<p style="text-align:justify">
+
 Driven by recent successes in artificial intelligence, new autonomous navigation
 systems are emerging in the urban space. The adoption of such systems raises questions
 about certification criteria and their vulnerability to external threats. This work focuses on the
@@ -22,6 +27,7 @@ equipped with an automated anti-collision system. Our contribution is threefold.
 illustrate the security vulnerabilities of these systems. Secondly, we demonstrate the effectiveness
 of Reinforcement Learning for automatic detection of security flaws. Thirdly, we provide
 the community with an original benchmark based on an industrial use case.<br><br>
-</div>
+</p>
 
-<i><a href="https://arxiv.org/abs/2106.14421">Link to Paper</a></i>
+***
+
