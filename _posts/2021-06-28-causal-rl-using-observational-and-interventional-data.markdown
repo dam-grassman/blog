@@ -2,7 +2,7 @@
 layout: post
 title:  Causal Reinforcement Learning using Observational and Interventional Data
 date:   2021-06-28 15:01:35 +0300
-#image:  02.jpg
+image:  pearlbig.png
 tags:   Causality
 ---
 
