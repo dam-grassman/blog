@@ -6,22 +6,22 @@ image:  mrss.png
 tags:   RL Robotic
 ---
 
-I've recently participated in the <b>Montreal Robotic Summer School</b> held by the prestigious MILA Institute in Montreal. For a week, I had the chance to listen to great talks from both industrial and academic speakers, as well as playing with a quadruped <a href="https://shop.unitree.com/en-ca/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog">Unitree Go1</a>robot.<br><br>
+I've recently participated in the <b>Montreal Robotic Summer School</b> held by the prestigious MILA Institute in Montreal. For a week, I had the chance to listen to great talks from both industrial and academic speakers, as well as playing with a quadruped <a href="https://shop.unitree.com/en-ca/products/unitreeyushutechnologydog-artificial-intelligence-companion-bionic-companion-intelligent-robot-go1-quadruped-robot-dog">Unitree Go1</a> robot.<br><br>
 
 Among all the topics covered : 
 <ul>
   <li>Introduction to Robotics <i>by Glen Berseth - MILA</i></li>
   <li>Sgtate Estimation <i>by Maani Ghaffari - University of Michigan</i></li>
-  <li>Simultaneous Localization and Mapping <i>by Liam Paull - MILA</li>
-  <li>Sim2Real <i>by NVIDIA researchers</li>
-  <li>Pratical RL <i>by Laura Graesser - Google</li>
+  <li>Simultaneous Localization and Mapping <i>by Liam Paull - MILA</i></li>
+  <li>Sim2Real <i>by NVIDIA researchers</i></li>
+  <li>Pratical RL <i>by Laura Graesser - Google</i></li>
 </ul>
 
 All afternoons were dedicated to some robot time so as to prepare the end-of-week competition. Objective : train a RL controller policy and implement a planning strategy to navigate to a desired goal.
 
-<img style="max-width: 25%; height: auto; " src="mrss2.jpg" />
-<img style="max-width: 75%; height: auto; " src="mrss4.jpg" />
-<img style="max-width: 100%; height: auto; " src="mrss3.jpg" />
+<img style="max-width: 25%; height: auto; " src="images/mrss2.png" />
+<img style="max-width: 75%; height: auto; " src="images/mrss4.jpg" />
+<img style="max-width: 100%; height: auto; " src="images/mrss3.jpg" />
 
 
 ***
