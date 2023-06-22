@@ -6,9 +6,8 @@ image:  drones.png
 tags:   RL Security
 ---
 
-Presented at ATT 2022 (12th International Workshop on Agents in Traffic
-and Transportation) held at IJCAI-ECAI 2022.<br>
-<i><a href="https://ceur-ws.org/Vol-3173/8.pdf">Link to Paper</a></i>
+Presented at <b>ATT 2022</b> (12th International Workshop on Agents in Traffic
+and Transportation) held at <b>IJCAI-ECAI 2022</b> - <i><a href="https://ceur-ws.org/Vol-3173/8.pdf">Link to Paper</a></i>
 
 ***
 
