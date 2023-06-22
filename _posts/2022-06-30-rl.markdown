@@ -2,11 +2,13 @@
 layout: post
 title:  Autonomous drone interception with Reinforcement Learning
 date:   2022-06-30 15:01:35 +0300
-image:  drones2.png
+image:  drones.png
 tags:   RL Security
 ---
 
-<i><a href="https://arxiv.org/abs/2106.14421">Link to Paper</a></i>
+Presented at ATT 2022 (12th International Workshop on Agents in Traffic
+and Transportation) held at IJCAI-ECAI 2022.<br>
+<i><a href="https://ceur-ws.org/Vol-3173/8.pdf">Link to Paper</a></i>
 
 ***
 
