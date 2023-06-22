@@ -2,7 +2,7 @@
 layout: post
 title:  Autonomous drone interception with Reinforcement Learning
 date:   2022-06-30 15:01:35 +0300
-image:  drones.png
+image:  drones2.png
 tags:   RL Security
 ---
 
