@@ -19,9 +19,9 @@ Among all the topics covered :
 
 All afternoons were dedicated to some robot time so as to prepare the end-of-week competition. Objective : train a RL controller policy and implement a planning strategy to navigate to a desired goal.
 
-<img style="max-width: 25%; height: auto; " src="{site.baseurl}/images/mrss2.png" />
-<img style="max-width: 75%; height: auto; " src="{site.baseurl}/images/mrss4.jpg" />
-<img style="max-width: 100%; height: auto; " src="{site.baseurl}/images/mrss3.jpg" />
+<img style="max-width: 25%; height: auto; " src="/blog/images/mrss2.png" />
+<img style="max-width: 75%; height: auto; " src="/blog/images/mrss4.jpg" />
+<img style="max-width: 100%; height: auto; " src="/blog//images/mrss3.jpg" />
 
 
 ***
