@@ -1,23 +1,16 @@
 ---
 layout: post
 title:  Autonomous drone interception with Reinforcement Learning
-date:   2021-06-28 15:01:35 +0300
-image:  02.jpg
-tags:   RL; Security
+date:   2022-06-30 15:01:35 +0300
+image:  drones.png
+tags:   RL Security
 ---
 
 # Abstract
 
+<div class="vertical-line" style="height: 45px;">
 <p style="text-align:justify">
-<style>
-    div.solid {
-        border-style: none solid none none;
-        margin: 10px;
-        padding: 10px;
-        right: 77%;
-        position: absolute;
-    }
-</style>
+
 Driven by recent successes in artificial intelligence, new autonomous navigation
 systems are emerging in the urban space. The adoption of such systems raises questions
 about certification criteria and their vulnerability to external threats. This work focuses on the
@@ -32,5 +25,6 @@ illustrate the security vulnerabilities of these systems. Secondly, we demonstra
 of Reinforcement Learning for automatic detection of security flaws. Thirdly, we provide
 the community with an original benchmark based on an industrial use case.<br><br>
 </p>
+</div>
 
 <i><a href="https://arxiv.org/abs/2106.14421">Link to Paper</a></i>
