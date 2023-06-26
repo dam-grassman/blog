@@ -20,9 +20,9 @@ function to data.“
 
 Causality is definitely one of the hottest topic of the recent years, and rightly so ! It is seen seen as one of the keys to help current AI system reaching a next step towards true intelligence,   as highlighted by Turing-Award winner Yoshua Bengio at Neurips 2020 : “[We] won’t deliver a true AI revolution, until it can go beyond pattern recognition and learn more about cause and effect“.<br>
 
-Let's start with a interesting statistical paradox to raise curiosity.
+Let's look at two examples to illustrate why we need causality : (1) an interesting statistical paradox to raise curiosity and (2) the famous brain-teaser Monty Hall problem
 
-### Simpson's Paradox
+## A. Simpson's Paradox
 
 <i>Context</i> : we want to investigate which of two treatments on tumor is the more effective. To do so, we come accross a study that have been conducted over the years, aiming at comparing the recovery rate between our two treatments of interest : A (Take medication) and B (Have surgery). At first sight, the data collected seems to be quite decent : around 2000 patients (quite as sample!) have been given either treatment A or B  in equal proportion. <br>
 
@@ -30,14 +30,14 @@ Let's start with a interesting statistical paradox to raise curiosity.
 
 First instinct would be to simply look at the global recovery rate of the two subgroups, the ones who have been given treatment A (medication) against the ones that have received treatment B (surgery). 
 
-<img style="max-width: 25%; height: auto; " class="center" src="/blog/images/simpson1.png" />
+<img style="max-width: 25%; height: auto; float: center"  src="/blog/images/simpson1.png" />
 
 Anyone after looking at the data would have this gut feeling that treatment A seems to be better suited to recover from his tumor. Let's bring the medication !<br>
 .. well not so fast !!
 
 The "size of the tumor" feature have been collected in the data, sorting tumor in two subgroups "small" or "big" based on the diameter of the tumor. Let's have a look a it :
 
-<img style="max-width: 35%; height: auto; " class="center" src="/blog/images/simpson2.png" />
+<img style="max-width: 35%; height: auto; float: center" src="/blog/images/simpson2.png" />
 
 Treatment B, i.e having surgery, seems to be better for small tumors .. and better as well for big tumors. How come Treatment B now be better for <b>both groups</b> ? Figures from both tables come from the same survey but now leads to two really distinct conclusion !<br>
 
