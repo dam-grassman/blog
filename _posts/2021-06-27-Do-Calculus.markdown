@@ -8,6 +8,7 @@ tags:   Causality
 
 # Introduction to Causality
 
+*** 
 <blockquote>
     <p>“Data are profoundly dumb [...]. <br>
     That’s all a deep-learning program can do : fit a
@@ -24,27 +25,27 @@ Let's look at two examples to illustrate why we need causality : (1) an interest
 
 ## A. Simpson's Paradox
 
-<b><i>Context</i><b> : we want to investigate which of two treatments on tumor is the most effective. To do so, we come accross a study that have been conducted over the years, aiming at comparing the recovery rate between our two treatments of interest : A (Take medication) and B (Have surgery). At first sight, the data collected seems to be quite decent : around 2000 patients (quite as sample!) have been given either treatment A or B  in equal proportion. <br>
+<b><i>Context</i></b> : we want to investigate which of two treatments on tumor is the most effective. To do so, we come accross a study that have been conducted over the years, aiming at comparing the recovery rate between our two treatments of interest : A (Take medication) and B (Have surgery). At first sight, the data collected seems to be quite decent : around 2000 patients (quite as sample!) have been given either treatment A or B  in equal proportion. <br>
 
-<b><i>Question</i></b>: If tomorrow I'm diagnosed a tumor, which one of the two treaments should I take ?<br>
+<b><i>Question</i></b> : If tomorrow I'm diagnosed a tumor, which one of the two treaments should I take ?<br>
 
 First instinct would be to simply look at the global recovery rate of the two subgroups, the ones who have been given treatment A (medication) against the ones that have received treatment B (surgery). 
 
-<img style="max-width: 25%; height: auto; text-align: center"  src="/blog/images/simpson1.png" />
+<p style="text-align:center;"><img style="max-width: 25%; height: auto"  src="/blog/images/simpson1.png" /></p>
 
 Anyone after looking at the data would have this gut feeling that treatment A seems to be better suited to recover from his tumor. Let's bring the medication !<br>
 .. well not so fast !!
 
 The "size of the tumor" feature have been collected in the data, sorting tumor in two subgroups "small" or "big" based on the diameter of the tumor. Let's have a look a it :
 
-<img style="max-width: 45%; height: auto; text-align: center" src="/blog/images/simpson2.png" />
+<p style="text-align:center;"><img style="max-width: 45%; height: auto" src="/blog/images/simpson2.png" /></p>
 
 Treatment B, i.e having surgery, seems to be better for small tumors .. and better as well for big tumors. How come Treatment B now be better for <b>both groups</b> ? Figures from both tables come from the same survey but now leads to two really distinct conclusion !<br>
 
 <i>Historically</i>, as a matter of life/death decisions when dealing with big tumors, patients would most of the time be given surgery. By nature, bigger tumors leads to a lower recovery rate (due to higher risks of complications) and to a more recurrent use of surgery.  
 The size of the tumor acts here as a <b>confounding factor</b>.<br>
 
-<img style="max-width: 60%; height: auto; text-align: center" src="/blog/images/simpson3.png" />
+<p style="text-align:center;"><img style="max-width: 60%; height: auto" src="/blog/images/simpson3.png" /></p>
 
 
 We are studying the causal effect between X(treament) → Y (recovery), but a third variable Z which is the size of the tumor affects both the recovery and the treatment given in our observational dataset. One has to be careful when using <b>retrospective studies</b> - in contrast with projective study where links between potential confounding factors and causes can be broken with randomization for instance. 
