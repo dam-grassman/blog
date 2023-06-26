@@ -23,32 +23,35 @@ Causality is definitely one of the hottest topic of the recent years, and rightl
 
 Let's look at two examples to illustrate why we need causality : (1) an interesting statistical paradox to raise curiosity and (2) the famous brain-teaser Monty Hall problem
 
-## A. Simpson's Paradox
+## Simpson's Paradox
 
 <b><i>Context</i></b> : we want to investigate which of two treatments on tumor is the most effective. To do so, we come accross a study that have been conducted over the years, aiming at comparing the recovery rate between our two treatments of interest : A (Take medication) and B (Have surgery). At first sight, the data collected seems to be quite decent : around 2000 patients (quite as sample!) have been given either treatment A or B  in equal proportion. <br>
 
 <b><i>Question</i></b> : If tomorrow I'm diagnosed a tumor, which one of the two treaments should I take ?<br>
 
-First instinct would be to simply look at the global recovery rate of the two subgroups, the ones who have been given treatment A (medication) against the ones that have received treatment B (surgery). 
+First instinct would be to simply look at the global recovery rate of the two subgroups, the ones who have been given treatment A (medication) against the ones who have received treatment B (surgery). 
 
 <p style="text-align:center;"><img style="max-width: 25%; height: auto"  src="/blog/images/simpson1.png" /></p>
 
-Anyone after looking at the data would have this gut feeling that treatment A seems to be better suited to recover from his tumor. Let's bring the medication !<br>
-.. well not so fast !!
+Anyone after looking at the data would have this gut feeling that treatment A seems to be better suited to recover from a tumor. <i>Let's bring the medication !</i> .. well not so fast !!
 
 The "size of the tumor" feature have been collected in the data, sorting tumor in two subgroups "small" or "big" based on the diameter of the tumor. Let's have a look a it :
 
 <p style="text-align:center;"><img style="max-width: 45%; height: auto" src="/blog/images/simpson2.png" /></p>
 
-Treatment B, i.e having surgery, seems to be better for small tumors .. and better as well for big tumors. How come Treatment B now be better for <b>both groups</b> ? Figures from both tables come from the same survey but now leads to two really distinct conclusion !<br>
+Treatment B, i.e having surgery, seems to be better for small tumors .. and better as well for big tumors. How come Treatment B now be better for <b>both groups</b> ? Figures from both tables come from the same survey but now leads to two really distinct conclusions !<br>
 
-<i>Historically</i>, as a matter of life/death decisions when dealing with big tumors, patients would most of the time be given surgery. By nature, bigger tumors leads to a lower recovery rate (due to higher risks of complications) and to a more recurrent use of surgery.  
-The size of the tumor acts here as a <b>confounding factor</b>.<br>
+<i>Historically</i>, as a matter of life/death decisions when dealing with big tumors, patients would most of the time be given surgery. By nature, bigger tumors leads to a lower recovery rate (due to higher risks of complications) and to a more recurrent use of surgery. The size of the tumor acts here as a <b>confounding factor</b>.<br>
 
 <p style="text-align:center;"><img style="max-width: 60%; height: auto" src="/blog/images/simpson3.png" /></p>
 
 
 We are studying the causal effect between X(treament) → Y (recovery), but a third variable Z which is the size of the tumor affects both the recovery and the treatment given in our observational dataset. One has to be careful when using <b>retrospective studies</b> - in contrast with projective study where links between potential confounding factors and causes can be broken with randomization for instance. 
+
+## Monty Hall Problem
+
+
+***
 
 # Do-Calculus and Pearl's Framework
 
