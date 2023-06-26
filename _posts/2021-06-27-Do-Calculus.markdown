@@ -1,10 +1,50 @@
 ---
 layout: post
-title:  Pearl's Framework and Do-Calculus
+title:  Introduction to Causality, Pearl's Framework and Do-Calculus
 date:   2021-06-28 15:01:35 +0300
-image:  00_causality.jpg
+image:  02_causality.png
 tags:   Causality
 ---
+
+# Introduction to Causality
+
+<blockquote>
+    <p>“Data are profoundly dumb [...]. <br>
+    That’s all a deep-learning program can do : fit a
+function to data.“
+    </p>
+</blockquote>
+*** 
+
+<p style="text-align:right;">-- <strong>Judea Pearl</strong> in ”The Book Of Why”</p>
+
+Causality is definitely one of the hottest topic of the recent years, and rightly so ! It is seen seen as one of the keys to help current AI system reaching a next step towards true intelligence,   as highlighted by Turing-Award winner Yoshua Bengio at Neurips 2020 : “[We] won’t deliver a true AI revolution, until it can go beyond pattern recognition and learn more about cause and effect“.<br>
+
+Let's start with a interesting statistical paradox to raise curiosity.
+
+### Simpson's Paradox
+
+<i>Context</i> : we want to investigate which of two treatments on tumor is the more effective. To do so, we come accross a study that have been conducted over the years, aiming at comparing the recovery rate between our two treatments of interest : A (Take medication) and B (Have surgery). At first sight, the data collected seems to be quite decent : around 2000 patients (quite as sample!) have been given either treatment A or B  in equal proportion. <br>
+
+<b>Question</b>If tomorrow I'm diagnosed a tumor, which one of the two treaments should I take ?<br>
+
+First instinct would be to simply look at the global recovery rate of the two subgroups, the ones who have been given treatment A (medication) against the ones that have received treatment B (surgery). 
+
+<img style="max-width: 25%; height: auto; " class="center" src="/blog/images/simpson1.png" />
+
+Anyone after looking at the data would have this gut feeling that treatment A seems to be better suited to recover from his tumor. Let's bring the medication !<br>
+.. well not so fast !!
+
+The "size of the tumor" feature have been collected in the data, sorting tumor in two subgroups "small" or "big" based on the diameter of the tumor. Let's have a look a it :
+
+<img style="max-width: 35%; height: auto; " class="center" src="/blog/images/simpson2.png" />
+
+Treatment B, i.e having surgery, seems to be better for small tumors .. and better as well for big tumors. How come Treatment B now be better for <b>both groups</b> ? Figures from both tables come from the same survey but now leads to two really distinct conclusion !<br>
+
+<i>Historically</i>, as a matter of life/death decisions when dealing with big tumors, patients would most of the time be given surgery. By nature, bigger tumors leads to a lower recovery rate (due to higher risks of complications) and to a more recurrent use of surgery.  
+The size of the tumor acts here as a <b>confounding factor</b>.<br>
+
+We are studying the causal effect between X(treament) → Y (recovery), but a third variable Z which is the size of the tumor affects both the recovery and the treatment given in our observational dataset. One has to be careful when using <b>retrospective studies</b> - in contrast with projective study where links between potential confounding factors and causes can be broken with randomization for instance. 
 
 # Do-Calculus and Pearl's Framework
 
