@@ -17,13 +17,16 @@ function to data.“
 </blockquote>
 *** 
 
-<p style="text-align:right;">-- <strong>Judea Pearl</strong> in ”The Book Of Why”</p>
+<p style="text-align:right;">-- <strong>Judea Pearl</strong> in ”The Book Of Why”</p><br>
 
 Causality is definitely one of the hottest topic of the recent years, and rightly so ! It is seen as one of the keys to help current AI system reaching a next step towards true intelligence,   as highlighted by Turing-Award winner Yoshua Bengio at Neurips 2020 : “[We] won’t deliver a true AI revolution, until it can go beyond pattern recognition and learn more about cause and effect“.<br>
 
-Let's look at two examples to illustrate why we need causality : (1) an interesting statistical paradox to raise curiosity and (2) the famous brain-teaser Monty Hall problem.
+Let's look at two examples to illustrate why we need causality : (1) an interesting statistical paradox to raise curiosity and (2) the famous brain-teaser Monty Hall problem.<br><br>
 
 ## Simpson's Paradox
+
+<p style="text-align:center;"><img style="max-width: 65%; height: auto" src="/blog/images/simpson0png" /></p>
+
 
 <b><i>Context</i></b> : we want to investigate which of two treatments on tumor is the most effective. To do so, we come accross a study that have been conducted over the years, aiming at comparing the recovery rate between our two treatments of interest : A (Take medication) and B (Have surgery). At first sight, the data collected seems to be quite decent : around 2000 patients (quite as sample!) have been given either treatment A or B  in equal proportion. <br>
 
@@ -46,14 +49,14 @@ Treatment B, i.e having surgery, seems to be better for small tumors .. and bett
 <p style="text-align:center;"><img style="max-width: 60%; height: auto" src="/blog/images/simpson3.png" /></p>
 
 
-We are studying the causal effect between X(treament) → Y (recovery), but a third variable Z which is the size of the tumor affects both the recovery and the treatment given in our observational dataset. One has to be careful when using <b>retrospective studies</b> - in contrast with projective study where links between potential confounding factors and causes can be broken with randomization for instance. 
+We are studying the causal effect between X(treament) → Y (recovery), but a third variable Z which is the size of the tumor affects both the recovery and the treatment given in our observational dataset. One has to be careful when using <b>retrospective studies</b> - in contrast with projective study where links between potential confounding factors and causes can be broken with randomization for instance. <br>
 
 ## Monty Hall Problem
 
 
 <figure style="text-align:center;">
   <img src="/blog/images/montyhall3.png" style="width:65%">
-  <figcaption>Source : Arte - Voyage pays des maths </figcaption>
+  <figcaption><i>Source : Arte - Voyage pays des maths</i> </figcaption>
 </figure>
 
 This problem is named after Monty Hall, who hosted the tv game show <i>Let's Make a Deal</i> between the 60s and the 80s.<br>
@@ -69,20 +72,20 @@ The game setting is pretty simple : you're given the choice of three doors, behi
 
 The naive way to solve this would be to think that I have now a choice between two doors with both probability 1/2 to hide the car. <i> Why bother changing my choice if both doors has the same probability ?</i><br>
 
-Let's change slighlty the perspective here. By using the Bayes formula, the probability that the car remains behind our initial pick, knowing that a goat was behind the door open by Monty, stays the same as before : P(Door picked &#65372; Second Door opened) = 1/3. On the contrary, the conditinal probability of the third door of hidding the car becomes now P(Third Door &#65372; Second Door open ) = 2/3. Following this intuition, we better change our choice to the third door !<br>
+Let's change slighlty the perspective here. By using the Bayes formula, the probability that the car remains behind our initial pick, knowing that a goat was behind the door open by Monty, stays the same as before : P(Door picked &#65372; Second Door opened) = 1/3. On the contrary, the conditional probability of the third door of hidding the car becomes now P(Third Door &#65372; Second Door open ) = 2/3. Following this intuition, we better change our choice to the third door !<br>
 
 Mathematician Marilyn vos Savant, who proposed this solution when asked in "Ask Marilyn" column in Parade magazine in 1990, got hugely criticized for it, even by other prestigious mathematicians of the time.<br>
 
-One way to prove this is to experimentally compute the mean reward R obtained in this problem. This indeed leads to a mean reward of 2/3 when switching doors, and 1/3 by keeping the first pick. <b>Another way to understand what happens here is to use Causality !</b>
+One way to prove this is to experimentally and numerically compute the mean reward R obtained in this problem. This indeed leads to a mean reward of 2/3 when switching doors, and 1/3 by keeping the first pick. <b>Another way to understand what happens here is to use Causality !</b>
 
-<p style="text-align:center;"><img style="max-width: 45%; height: auto" src="/blog/images/montyhall.png" /></p>
+<p style="text-align:center;"><img style="max-width: 65%; height: auto" src="/blog/images/montyhall.png" /></p>
 ***
 
-Notice how different the arrow in the diagram are from the Simpson's Paradox one. When we were dealing wth a <b>confounder</b> earlier, i.e a third variable that affects both the input and output, we now are in presence of a <b>collider</b>.<br>
+Notice how different the arrow in the diagram are from the Simpson's Paradox one. When we were dealing with a <b>confounder</b> earlier, i.e a third variable that affects both the input and output, we now are in presence of a <b>collider</b>.<br>
 
 For clarity, let's have A="Door Choice", B="Car's location", C="Door opened by Monty". Here, our intuition should tell us that A and B looks independant (and they are). Our choice of picking one of the three doors doesn't change the car's location (and vice-versa). On the other hand, A and C are dependant as Monty adapts which door he opens regarding our initial pick. Same with B and C as Monty makes sure he only reveals a goat and not the car.<br>
 
-That's where it comes interesting : when we <i>condition on C</i> (we "fix" C, which becomes the case as Monty opens a door and reveals a goat.), causality tells us it creates a spurious association between the other two variables A and C. As a result, <b> A and B become dependant variables</b>. Conclusion, if intuition tells you at first that the door you pick and the door the car is behind are independent, the information brought when Monty opens a door (based on both your choice AND the car's location), THEN your choice of a door and the car's location becomes spuriously associated by Monty Hall's control of which door he opens.
+That's where it comes interesting : when we <i>condition on C</i> (we "fix" C, which becomes the case as Monty opens a door and reveals a goat.), causality tells us it creates a spurious association between the other two variables A and B. As a result, <b> A and B become dependant variables</b>. Conclusion, if intuition tells you at first that the door you pick and the door the car is behind are independent, the information brought when Monty opens a door (based on both your choice AND the car's location), THEN your choice of a door and the car's location becomes spuriously associated by Monty Hall's control of which door he opens.<br><br>
 
 
 # Do-Calculus and Pearl's Framework
