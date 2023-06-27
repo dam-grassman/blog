@@ -19,9 +19,9 @@ function to data.“
 
 <p style="text-align:right;">-- <strong>Judea Pearl</strong> in ”The Book Of Why”</p>
 
-Causality is definitely one of the hottest topic of the recent years, and rightly so ! It is seen seen as one of the keys to help current AI system reaching a next step towards true intelligence,   as highlighted by Turing-Award winner Yoshua Bengio at Neurips 2020 : “[We] won’t deliver a true AI revolution, until it can go beyond pattern recognition and learn more about cause and effect“.<br>
+Causality is definitely one of the hottest topic of the recent years, and rightly so ! It is seen as one of the keys to help current AI system reaching a next step towards true intelligence,   as highlighted by Turing-Award winner Yoshua Bengio at Neurips 2020 : “[We] won’t deliver a true AI revolution, until it can go beyond pattern recognition and learn more about cause and effect“.<br>
 
-Let's look at two examples to illustrate why we need causality : (1) an interesting statistical paradox to raise curiosity and (2) the famous brain-teaser Monty Hall problem
+Let's look at two examples to illustrate why we need causality : (1) an interesting statistical paradox to raise curiosity and (2) the famous brain-teaser Monty Hall problem.
 
 ## Simpson's Paradox
 
@@ -55,8 +55,8 @@ This problem is named after Monty Hall, who hosted the tv game show <i>Let's Mak
 The game setting is pretty simple : you're given the choice of three doors, behind one of them is a<i>Cadillac</i>, behind the others two, goats. If you open the right door, you go home in a brand new car, otherwise you go home with a goat.
 <ul>
   <li>Your start by picking a door, with a probability 1/3 of winning the car.</li>
-  <li>Instead of opening the door you picked, Monty, who by the way knows what's behind each doors, opens one of the two other doors. Big suprise, here is a goat. </i></li>
-  <li>Then, Monty says to you "Do you want to keep your original pick or do you want to switch doors ?" </i></li>
+  <li>Instead of opening the door you picked, Monty, who by the way knows what's behind each doors, opens one of the two other doors. Big suprise, here is a goat.</li>
+  <li>Then, Monty says to you "Do you want to keep your original pick or do you want to switch doors ?"</li>
 </ul>
 
 <b>Question</b> : Is it to your advantage to change your choice?<br>
