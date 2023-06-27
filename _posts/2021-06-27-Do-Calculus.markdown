@@ -50,9 +50,17 @@ We are studying the causal effect between X(treament) → Y (recovery), but a th
 
 ## Monty Hall Problem
 
+
+<p style="text-align:center;"><img style="max-width: 65%; height: auto" src="/blog/images/montyhall3.png" /></p>
+
+<figure style="text-align:center;">
+  <img src="/blog/images/montyhall3.png" style="width:65%">
+  <figcaption>Source : Arte - Voyage pays des maths </figcaption>
+</figure>
+
 This problem is named after Monty Hall, who hosted the tv game show <i>Let's Make a Deal</i> between the 60s and the 80s.<br>
 
-The game setting is pretty simple : you're given the choice of three doors, behind one of them is a<i>Cadillac</i>, behind the others two, goats. If you open the right door, you go home in a brand new car, otherwise you go home with a goat.
+The game setting is pretty simple : you're given the choice of three doors, behind one of them is a <i>Cadillac</i>, behind the others two, goats. If you open the right door, you go home in a brand new car, otherwise you go home with a goat.
 <ul>
   <li>Your start by picking a door, with a probability 1/3 of winning the car.</li>
   <li>Instead of opening the door you picked, Monty, who by the way knows what's behind each doors, opens one of the two other doors. Big suprise, here is a goat.</li>
