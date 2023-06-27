@@ -25,7 +25,7 @@ Let's look at two examples to illustrate why we need causality : (1) an interest
 
 ## Simpson's Paradox
 
-<p style="text-align:center;"><img style="max-width: 65%; height: auto" src="/blog/images/simpson0png" /></p>
+<p style="text-align:center;"><img style="max-width: 65%; height: auto" src="/blog/images/simpson0.png" /></p>
 
 
 <b><i>Context</i></b> : we want to investigate which of two treatments on tumor is the most effective. To do so, we come accross a study that have been conducted over the years, aiming at comparing the recovery rate between our two treatments of interest : A (Take medication) and B (Have surgery). At first sight, the data collected seems to be quite decent : around 2000 patients (quite as sample!) have been given either treatment A or B  in equal proportion. <br>
@@ -49,7 +49,7 @@ Treatment B, i.e having surgery, seems to be better for small tumors .. and bett
 <p style="text-align:center;"><img style="max-width: 60%; height: auto" src="/blog/images/simpson3.png" /></p>
 
 
-We are studying the causal effect between X(treament) → Y (recovery), but a third variable Z which is the size of the tumor affects both the recovery and the treatment given in our observational dataset. One has to be careful when using <b>retrospective studies</b> - in contrast with projective study where links between potential confounding factors and causes can be broken with randomization for instance. <br>
+We are studying the causal effect between X(treament) → Y (recovery), but a third variable Z which is the size of the tumor affects both the recovery and the treatment given in our observational dataset. One has to be careful when using <b>retrospective studies</b> - in contrast with projective study where links between potential confounding factors and causes can be broken with randomization for instance. <br> <br>
 
 ## Monty Hall Problem
 
