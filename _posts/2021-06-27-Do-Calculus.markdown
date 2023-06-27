@@ -63,7 +63,7 @@ The game setting is pretty simple : you're given the choice of three doors, behi
 
 The naive way to solve this would be to think that I have now a choice between two doors with both probability 1/2 to hide the car. <i> Why bother changing my choice if both doors has the same probability ?</i><br>
 
-Let's change slighlty the perspective here. By using the Bayes formula, the probability that the car remains behind our initial pick, knowing that a goat was behind the door open by Monty, stays the same as before : P(Door picked | Second Door opened) = 1/3. On the contrary, the conditinal probability of the third door of hidding the car becomes now P(Third Door | Second Door open ) = 2/3. Following this intuition, we better change our choice to the third door !<br>
+Let's change slighlty the perspective here. By using the Bayes formula, the probability that the car remains behind our initial pick, knowing that a goat was behind the door open by Monty, stays the same as before : P(Door picked [|] Second Door opened) = 1/3. On the contrary, the conditinal probability of the third door of hidding the car becomes now P(Third Door [|] Second Door open ) = 2/3. Following this intuition, we better change our choice to the third door !<br>
 
 Mathematician Marilyn vos Savant, who proposed this solution when asked in "Ask Marilyn" column in Parade magazine in 1990, got hugely criticized for it, even by other prestigious mathematicians of the time.<br>
 
