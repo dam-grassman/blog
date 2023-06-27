@@ -50,8 +50,34 @@ We are studying the causal effect between X(treament) → Y (recovery), but a th
 
 ## Monty Hall Problem
 
+This problem is named after Monty Hall, who hosted the tv game show <i>Let's Make a Deal</i> between the 60s and the 80s.<br>
 
+The game setting is pretty simple : you're given the choice of three doors, behind one of them is a<i>Cadillac</i>, behind the others two, goats. If you open the right door, you go home in a brand new car, otherwise you go home with a goat.
+<ul>
+  <li>Your start by picking a door, with a probability 1/3 of winning the car.</li>
+  <li>Instead of opening the door you picked, Monty, who by the way knows what's behind each doors, opens one of the two other doors. Big suprise, here is a goat. </i></li>
+  <li>Then, Monty says to you "Do you want to keep your original pick or do you want to switch doors ?" </i></li>
+</ul>
+
+<b>Question</b> : Is it to your advantage to change your choice?<br>
+
+The naive way to solve this would be to think that I have now a choice between two doors with both probability 1/2 to hide the car. <i> Why bother changing my choice if both doors has the same probability ?</i><br>
+
+Let's change slighlty the perspective here. By using the Bayes formula, the probability that the car remains behind our initial pick, knowing that a goat was behind the door open by Monty, stays the same as before : P(Door picked | Second Door opened) = 1/3. On the contrary, the conditinal probability of the third door of hidding the car becomes now P(Third Door | Second Door open ) = 2/3. Following this intuition, we better change our choice to the third door !<br>
+
+Mathematician Marilyn vos Savant, who proposed this solution when asked in "Ask Marilyn" column in Parade magazine in 1990, got hugely criticized for it, even by other prestigious mathematicians of the time.<br>
+
+One way to prove this is to experimentally compute the mean reward R obtained in this problem. This indeed leads to a mean reward of 2/3 when switching doors, and 1/3 by keeping the first pick. <b>Another way to understand what happens here is to use Causality !</b>
+
+<p style="text-align:center;"><img style="max-width: 45%; height: auto" src="/blog/images/montyhall.png" /></p>
 ***
+
+Notice how different the arrow in the diagram are from the Simpson's Paradox one. When we were dealing wth a <b>confounder</b> earlier, i.e a third variable that affects both the input and output, we now are in presence of a <b>collider</b>.<br>
+
+For clarity, let's have A="Door Choice", B="Car's location", C="Door opened by Monty". Here, our intuition should tell us that A and B looks independant (and they are). Our choice of picking one of the three doors doesn't change the car's location (and vice-versa). On the other hand, A and C are dependant as Monty adapts which door he opens regarding our initial pick. Same with B and C as Monty makes sure he only reveals a goat and not the car.<br>
+
+That's where it comes interesting : when we <i>condition on C</i> (we "fix" C, which becomes the case as Monty opens a door and reveals a goat.), causality tells us it creates a spurious association between the other two variables A and C. As a result, <b> A and B become dependant variables</b>. Conclusion, if intuition tells you at first that the door you pick and the door the car is behind are independent, the information brought when Monty opens a door (based on both your choice AND the car's location), THEN your choice of a door and the car's location becomes spuriously associated by Monty Hall's control of which door he opens.
+
 
 # Do-Calculus and Pearl's Framework
 
